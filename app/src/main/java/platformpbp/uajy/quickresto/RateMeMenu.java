@@ -186,7 +186,7 @@ public class RateMeMenu extends AppCompatActivity {
         System.out.println("RATE"+ rate);
         String ratting = Float.toString(rate);
         Double rateku = Double.parseDouble(ratting);
-        System.out.println("ASU"+ rateku);
+        System.out.println("RATEku"+ rateku);
         RequestQueue queue = Volley.newRequestQueue(this);
 
         StringRequest stringRequest = new StringRequest(POST, RateAPI.URL_STORE, new Response.Listener<String>() {
